@@ -21,6 +21,7 @@ button,
     flex-direction: column;
     align-items: end;
     padding: 10px;
+
 }
 
 .container>button {
@@ -45,7 +46,7 @@ button,
 }
 
 .table td,
-th {
+.table th {
     border: 1px solid gray;
     padding: 5px 10px;
 }
@@ -78,13 +79,18 @@ td:last-child>button {
     width: 25vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
     border-radius: 5px;
     position: relative;
 }
-.popup-body>input{
-    padding-inline: 5px;
+
+.popup-body>input,
+.popup-body>select {
+    border: 1px double;
+    padding: 1px 5px;
+    border-radius: 5px;
 }
 
 .popup-body>button {
